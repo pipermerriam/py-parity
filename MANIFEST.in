@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include requirements.txt
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+include parity/default_blockchain_password
+include parity/genesis.json
